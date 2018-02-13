@@ -1,0 +1,18 @@
+4
+4
+smile
+frown
+smile
+clock 4
+clock 8
+frown
+smile
+clock 3
+clock 12
+clock 10
+smile
+smile
+smile
+frown
+frown
+frown
