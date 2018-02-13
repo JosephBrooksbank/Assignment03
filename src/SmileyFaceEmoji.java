@@ -1,12 +1,21 @@
 import edu.princeton.cs.introcs.StdDraw;
 
-public class SmileyFaceEmoji extends FaceEmoji {
-    SmileyFaceEmoji(int x, int y, int radius){
+class SmileyFaceEmoji extends FaceEmoji {
+
+    /**
+     * Smiley face constructor
+     *
+     * @param x      X coord of emoji
+     * @param y      Y coord of emoji
+     * @param radius radius of emoji
+     */
+    SmileyFaceEmoji(double x, double y, double radius) {
         super(x, y, radius);
     }
-    public void draw(){
+
+    public void draw() {
         super.draw();
         // mouth
-        StdDraw.arc(x, y, radius*MOUTH_MODIFIER, 210, 330 );
+        StdDraw.arc(x, y, radius * MOUTH_MODIFIER, 210, 330);
     }
 }
